@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thappa technical</title>
+</head>
+<style>
+    body {
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    header {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to left, #ffffff 80%, #84c07c 20%);
+        /* background-image: url(https://th.bing.com/th/id/R.fc96339f504db39343f7527d3a388890?rik=UBG5jW%2f57BVMOw&pid=ImgRaw&r=0&sres=1&sresct=1);
+        background-size: cover; */
+
+
+    }
+
+    .navsection {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to top, #fff 80%, #add377 20%);
+
+    }
+
+    .logo {
+        background-color: #3db5b5;
+        width: 45%;
+        border-radius: 20px;
+        color: #000000;
+
+    }
+
+    .logo h1 {
+        text-transform: uppercase;
+    }
+
+    .logo:hover {
+        background-color: #0a0d0e;
+        color: #eae9e9;
+        transition: all 2s ease-out;
+    }
+
+
+    nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #000;
+        font-size: 18px;
+        position: relative;
+    }
+
+    nav a:before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        border-bottom: 2px solid #4458dc;
+        transition: all 0.4s linear;
+    }
+
+
+    nav a:hover::before {
+        width: 100%;
+    }
+
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .leftside {
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .leftside h3 {
+        font-size: 45px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -1%;
+        padding-top: 40%;
+
+    }
+
+    .leftside h3:after {
+        content: "";
+        width: 450px;
+        height: 4px;
+        position: absolute;
+        top: 98%;
+        left: 37%;
+        background: #000;
+    }
+
+    .leftside h1 {
+        margin-top: 20px;
+        font-size: 40px;
+        margin-bottom: 25px;
+
+    }
+
+    .rightside img {
+        width: 370px;
+        height: 370px;
+        border: 2px solid #000;
+        border-radius: 1500px;
+    }
+
+    .rightside img:hover {
+        background-color: #000000;
+        transition: all 2s ease;
+    }
+
+
+    .leftside h2 {
+        margin-bottom: 36px;
+        font-weight: 500;
+        word-spacing: 6px;
+    }
+
+    .btn1 {
+        text-decoration: none;
+        font-weight: 900;
+        text-align: center;
+        cursor: pointer;
+        padding: 12px 25px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 50px;
+        color: #ffffff;
+        letter-spacing: 2px;
+        box-shadow: 0 10px 30px rgba(red, green, blue, alpha);
+        background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc 0%, #854fee 100%);
+    }
+
+    .btn1:hover {
+        border: 2px solid #4458dc;
+        color: #222;
+        background-color: #fff;
+        background-image: none;
+        box-shadow: none;
+
+    }
+
+    .btn2:hover {
+        border: 2px solid #4458dc;
+        color: #222;
+        background-color: #fff;
+        background-image: none;
+        box-shadow: none;
+    }
+
+    .btn2 {
+        text-decoration: none;
+        font-weight: 900;
+        text-align: center;
+        cursor: pointer;
+        padding: 12px 25px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 50px;
+        color: #ffffff;
+        letter-spacing: 0;
+        box-shadow: 0 10px 30px rgba(red, green, blue, alpha);
+        background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc 0%, #854fee 100%);
+    }
+
+    .ms {
+        width: 1500px;
+        height: 70px;
+        background-color: #6a2727;
+    }
+
+    .ms p {
+        color: #ffffff;
+        justify-content: center;
+    }
+
+    .ms:hover {
+        background-color: #4458dc;
+        transition: all 2s ease;
+    }
+</style>
+
+<body>
+    <header>
+        <section class="navsection">
+            <div class="logo">
+                <marquee>
+                    <h1>welcome to my first website </h1>
+                </marquee>
+            </div>
+            <nav>
+                <a href="thapa.html">home</a>
+                <a href="service.html">services</a>
+                <a href="gallery.html">gallery</a>
+                <a href="about.html" class="">about</a>
+                <a href="hm.html" class="">contact</a>
+            </nav>
+        </section>
+        <main>
+            <div class="leftside">
+                <h3>hello</h3>
+                <h1> welcome to my first website </h1>
+                <h2></h2>
+                <a href="#" class="btn1">hire me</a>
+                <a href="contact me.html" class="btn2">contact me </a>
+
+            </div>
+            <div class="rightside">
+                <img src="http://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/275129447_1001915277414158_2108515036588453302_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeGcpFSHH6k9V-aXvSqmOlbzKT8xMrlwLfgpPzEyuXAt-M2c7KpXReuZN0olnu_WPhnX6XS1EiOrWXxTq74U49PA&_nc_ohc=J7IhXTjUlgoAX-k3UDp&_nc_ht=scontent.fkhi22-1.fna&oh=00_AfA72XfWOlmST95sDDXiAyG94Ibjb6Q0J7r871bw0K6VmQ&oe=6507B4BA"
+                    alt="">
+
+            </div>
+        </main>
+    </header><br><br>
+    <footer>
+        <div class="ms">
+            <marquee>
+                <p>www.myfirstwebsite.com</p>
+            </marquee>
+        </div>
+    </footer>
+</body>
+
+</html>

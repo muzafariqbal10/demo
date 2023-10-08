@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0%;
+        margin-top: 0%;
+        background-color: wheat;
+
+    }
+
+
+
+    .container {
+        width: 80%;
+        height: 10vh;
+        padding: 0 10%;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        padding-top: 9%;
+        margin-bottom: 60px;
+        font-weight: 900;
+        position: relative;
+    }
+
+    .container h1::after {
+        content: "";
+        background: #8896c3;
+        width: 100px;
+        height: 5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 45px;
+    }
+
+    .service {
+        text-align: center;
+        justify-content: center;
+        padding: 25px 15px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        box-shadow: rgb(67, 60, 60) 3px 3px;
+        background-color: #a3b8d8
+    }
+
+    .service:hover {
+        background: #8793b6;
+        transform: scale(1.05);
+        transition: all (0.05s ease-in);
+    }
+
+    .service img {
+        width: 30px;
+    }
+
+    .hst {
+        width: 100%;
+        height: 300px;
+        font-size: 20px;
+    }
+
+    /* .service img:hover {
+        color: #000000;
+        transform: scale(1.05);
+        background: #303e7f;
+        transition: transform 0.5, ;
+    } */
+
+    .navsection {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to top, #fff 80%, #add377 20%);
+
+    }
+
+    .logo {
+        background-color: #3db5b5;
+        width: 45%;
+        border-radius: 20px;
+        color: #000000;
+
+    }
+
+    .logo h1 {
+        text-transform: uppercase;
+    }
+
+    .logo:hover {
+        background-color: #0a0d0e;
+        color: #eae9e9;
+        transition: all 2s ease-out;
+    }
+
+
+    nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #000;
+        font-size: 18px;
+        position: relative;
+    }
+
+    nav a:before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        border-bottom: 2px solid #4458dc;
+        transition: all 0.4s linear;
+    }
+
+
+    nav a:hover::before {
+        width: 100%;
+    }
+
+    .container a {
+        text-decoration: none;
+        color: #000;
+    }
+</style>
+
+<body>
+    <section class="navsection">
+        <div class="logo">
+            <marquee>
+                <h1>welcome to my first website </h1>
+            </marquee>
+        </div>
+        <nav>
+            <a href="thapa.html">home</a>
+            <a href="service.html">services</a>
+            <a href="gallery.html">gallery</a>
+            <a href="about.html" class="">about</a>
+            <a href="hm.html" class="">contact</a>
+        </nav>
+    </section>
+
+    <div class="container">
+        <div class="hst">
+            <h1>our services</h1>
+        </div>
+        <div class="row">
+            <a href="webdesign.html">
+                <div class="service">
+                    <img src="https://cdn2.iconfinder.com/data/icons/picons-essentials/57/desktop-512.png" alt="">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+
+            <a href="marketing.html">
+                <div class="service">
+                    <img src="https://flyclipart.com/thumb2/marketing-icons-for-free-download-26497.png" alt="">
+                    <h2>Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitisuugogygk!</p>
+                </div>
+            </a>
+            <a href="graphic.html">
+                <div class="service">
+                    <img src="https://th.bing.com/th/id/R.72e4053a5b92386c2ec4cd213c9683ba?rik=3WKaaI4iHuv31w&pid=ImgRaw&r=0"
+                        alt="">
+                    <h2>Graphic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+            <a href="data analysis.html">
+                <div class="service">
+                    <img src="https://cdn1.vectorstock.com/i/1000x1000/39/95/report-analysis-icon-vector-21023995.jpg"
+                        alt="">
+                    <h2>Data Analysis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+            <a href="app development.html">
+                <div class="service">
+                    <img src="https://cdn1.iconfinder.com/data/icons/beautiful-line-icons/512/41_mobile-512.png" alt="">
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+            <a href="accounting.html">
+                <div class="service">
+                    <img src="https://th.bing.com/th/id/R.f67f378e3127b67348a4ebd7bde9f84b?rik=5I%2fUccnASzEq8Q&pid=ImgRaw&r=0"
+                        alt="">
+                    <h2>Accounting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+            <a href="web developmebt.html">
+                <div class="service">
+                    <img src="https://p7.hiclipart.com/preview/911/267/631/web-development-computer-icons-website.jpg"
+                        alt="">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+            <a href="networking.html">
+                <div class="service">
+                    <img src="https://th.bing.com/th/id/OIP.oYa3ffYkD_Hkmn1H2NrV-AHaGB?pid=ImgDet&rs=1" alt="">
+                    <h2>Networking</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                        perspiciatis dolores quidem voluptates debitis!</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+   
+</body>
+
+</html>
